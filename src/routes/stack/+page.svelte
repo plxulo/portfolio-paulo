@@ -4,6 +4,6 @@
 </script>
 <Header />
 <section class="p-4">
-  <p class="text-zinc-500">About me</p>
-  <h1 class="font-bold text-2xl">I'm a developer</h1>
+  <p class="text-zinc-500">My stack</p>
+  <h1 class="font-bold text-2xl">Svelte kit, React JS</h1>
 </section>
