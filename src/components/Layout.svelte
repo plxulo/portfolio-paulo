@@ -4,8 +4,8 @@
 	import Navigation from "./Navigation.svelte";
 </script>
 
-<Navigation />
 <Body>
+	<Navigation />
   <slot />
 </Body>
 <Footer />

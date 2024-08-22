@@ -2,7 +2,14 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: 'Inter'
+      },
+      backgroundImage: {
+        'background-1': "url('./purple-background.jpg')"
+      }
+    }
   },
   plugins: []
 };
