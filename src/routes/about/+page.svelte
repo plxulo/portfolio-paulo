@@ -1,9 +1,7 @@
 <script>
-	import Header from "../../components/Header.svelte";
+	import Hero from "../../components/Hero.svelte";
 
+  let title = "About me"
+  let subtitle = "I'm a developer"
 </script>
-<Header />
-<section class="p-4">
-  <p class="text-zinc-500">About me</p>
-  <h1 class="font-bold text-2xl">I'm a developer</h1>
-</section>
+<Hero title={title} subtitle={subtitle} />

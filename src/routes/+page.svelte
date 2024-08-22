@@ -1,10 +1,6 @@
-<script>
-	import Header from "../components/Header.svelte";
-
+<script lang="ts">
+	import Hero from "../components/Hero.svelte";
+  let title = "Paulo Amarante"
+  let subtitle = "Web developer"
 </script>
-
-<Header />
-<section class="p-4">
-  <p class="text-zinc-500">Hello, I am</p>
-  <h1 class="font-bold text-2xl">Paulo Amarante</h1>
-</section>
+<Hero title={title} subtitle={subtitle} />

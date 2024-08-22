@@ -1,9 +1,7 @@
 <script>
-	import Header from "../../components/Header.svelte";
+	import Hero from "../../components/Hero.svelte";
 
+  let title = "My stack"
+  let subtitle = "Learn more about my tech stack"
 </script>
-<Header />
-<section class="p-4">
-  <p class="text-zinc-500">My stack</p>
-  <h1 class="font-bold text-2xl">Svelte kit, React JS</h1>
-</section>
+<Hero title={title} subtitle={subtitle} />
