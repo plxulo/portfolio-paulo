@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: 'Inter'
+        sans: 'Inter',
+        'display': 'Swansea'
       },
       backgroundImage: {
-        'background-1': "url('./purple-background.jpg')"
+        'background-1': "url('./wavy-abstract-bg.jpg')"
       }
     }
   },
