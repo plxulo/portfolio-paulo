@@ -4,8 +4,6 @@
   import Button from "./Button.svelte";
 	import { onMount } from "svelte";
 
-  let backgroundImage: string
-
   let scrollY: number = 0
   let isScroll: boolean = false
 

@@ -1,11 +1,11 @@
 <script>
 	import Body from "./Body.svelte";
 	import Footer from "./Footer.svelte";
-	import Navigation from "./Navigation.svelte";
+	import Header from "./Header.svelte";
 </script>
 
 <Body>
-	<Navigation />
+	<Header />
   <slot />
 </Body>
 <Footer />
