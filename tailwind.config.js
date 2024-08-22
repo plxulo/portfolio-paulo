@@ -8,7 +8,7 @@ export default {
         'display': 'Swansea'
       },
       backgroundImage: {
-        'background-1': "url('./wavy-abstract-bg.jpg')"
+        'background-1': "url('./mata-com-rio.jpg')"
       }
     }
   },

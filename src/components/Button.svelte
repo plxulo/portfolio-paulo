@@ -3,8 +3,8 @@
 </script>
 
 <button
-  class={`flex flex-row items-center justify-center gap-3 px-4 h-8 w-full rounded-3xl border text-sm 
-    transition-all
+  class={`flex-row items-center justify-center gap-3 px-4 h-8 w-full rounded-3xl border text-sm 
+    transition-all hidden md:flex
     ${variant === 'navigation' ? 'hover:bg-white hover:text-zinc-900' : ''}`}
 >
   <slot />
