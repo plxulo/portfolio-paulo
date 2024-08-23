@@ -9,7 +9,8 @@ export default {
       },
       backgroundImage: {
         'background-1': "url('/assets/mata-com-rio.jpg')",
-        'background-2': "url('/assets/purple-background.jpg')"
+        'background-2': "url('/assets/purple-background.jpg')",
+        'background-3': "url('/assets/wavy-abstract-bg.jpg')"
       }
     }
   },
