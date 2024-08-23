@@ -18,6 +18,7 @@ const config = {
     }),
 		paths: {
 			base: '/portfolio-paulo',
+			assets: '/portfolio-paulo/assets',
 		},
     prerender: {
       entries: ['/', '/about', '/stack', '/projects']
