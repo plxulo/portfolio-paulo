@@ -28,10 +28,10 @@
     <section class="flex flex-row justify-center gap-3 col-start-3 col-span-2 xl:col-start-6">
       <nav class="flex flex-row items-center gap-3">
         <ul class="flex flex-row items-center gap-3">
-          <a href="/" class="hover:underline hover:font-medium">Home</a>
-          <a href="/about" class="hover:underline hover:font-medium">About</a>
-          <a href="/stack" class="hover:underline hover:font-medium">Stack</a>
-          <a href="/projects" class="hover:underline hover:font-medium">Projects</a>
+          <a href="/portfolio-paulo" class="hover:underline hover:font-medium">Home</a>
+          <a href="/portfolio-paulo/about" class="hover:underline hover:font-medium">About</a>
+          <a href="/portfolio-paulo/stack" class="hover:underline hover:font-medium">Stack</a>
+          <a href="/portfolio-paulo/projects" class="hover:underline hover:font-medium">Projects</a>
         </ul>
       </nav>
     </section>

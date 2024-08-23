@@ -16,6 +16,9 @@ const config = {
       assets: 'build',
       fallback: 'index.html'
     }),
+		paths: {
+			base: '/portfolio-paulo',
+		},
     prerender: {
       entries: ['/', '/about', '/stack', '/projects']
     }
