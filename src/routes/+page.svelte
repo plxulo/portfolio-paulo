@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Hero from "../components/Hero.svelte";
-  let title = "Paulo Amarante"
-  let subtitle = "Web developer - science & technology"
+  let title = "In love with technology, design & art."
 </script>
-<Hero title={title} subtitle={subtitle} />
+<Hero title={title} />

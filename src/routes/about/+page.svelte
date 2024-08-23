@@ -2,12 +2,11 @@
 	import Hero from "../../components/Hero.svelte";
 	import Section from "../../components/Section.svelte";
 
-  let title = "About"
-  let subtitle = "A little bit about me"
+  let title = "Learn more about me"
   let sectionTitle = "I'm a web developer"
 </script>
 
-<Hero title={title} subtitle={subtitle} />
+<Hero title={title} />
 
 <article class="bg-zinc-900 text-white py-32">
   <Section sectionTitle={sectionTitle}>

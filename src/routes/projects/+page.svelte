@@ -1,7 +1,6 @@
 <script>
 	import Hero from "../../components/Hero.svelte";
 
-  let title = "Projects"
-  let subtitle = "Learn more about my projects"
+  let title = "Projects that I work/worked on"
 </script>
-<Hero title={title} subtitle={subtitle} />
+<Hero title={title} />
