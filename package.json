@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.4",
 		"lucide-svelte": "^0.429.0"
 	}
 }
