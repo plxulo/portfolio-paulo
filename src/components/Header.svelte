@@ -3,6 +3,9 @@
   import { ArrowDown, ArrowRight } from "lucide-svelte";
   import Button from "./Button.svelte";
 	import { onMount } from "svelte";
+  import { page } from "$app/stores";
+
+  let currentPath = $page.url.pathname
 
   let scrollY: number = 0
   let isScroll: boolean = false
@@ -28,10 +31,34 @@
     <section class="flex flex-row justify-center gap-3 col-start-3 col-span-2 xl:col-start-6">
       <nav class="flex flex-row items-center gap-3">
         <ul class="flex flex-row items-center gap-3">
-          <a href="/portfolio-paulo" class="hover:underline hover:font-medium">Home</a>
-          <a href="/portfolio-paulo/about" class="hover:underline hover:font-medium">About</a>
-          <a href="/portfolio-paulo/stack" class="hover:underline hover:font-medium">Stack</a>
-          <a href="/portfolio-paulo/projects" class="hover:underline hover:font-medium">Projects</a>
+          <li>
+            <a 
+              href="/portfolio-paulo"
+              class="hover:underline hover:font-medium {($page.url.pathname === '/portfolio-paulo/') ? 'underline' : ''}">
+              Home
+            </a>
+          </li>
+          <li>
+            <a 
+              href="/portfolio-paulo/about"
+              class="hover:underline hover:font-medium {($page.url.pathname === '/portfolio-paulo/about') ? 'underline' : ''}">
+              About
+            </a>
+          </li>
+          <li>
+            <a 
+              href="/portfolio-paulo/stack"
+              class="hover:underline hover:font-medium {($page.url.pathname === '/portfolio-paulo/stack') ? 'underline' : ''}">
+              Stack
+            </a>
+          </li>
+          <li>
+            <a 
+              href="/portfolio-paulo/projects"
+              class="hover:underline hover:font-medium {($page.url.pathname === '/portfolio-paulo/projects') ? 'underline' : ''}">
+              Projects
+            </a>
+          </li>
         </ul>
       </nav>
     </section>
