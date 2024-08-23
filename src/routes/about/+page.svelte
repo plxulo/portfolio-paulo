@@ -11,7 +11,9 @@
 
 <Hero title={title} subtitle={subtitle} />
 
-<Section
-  sectionTitle={sectionTitle}
-  sectionContent={sectionContent}
-/>
+<article class="bg-zinc-900 text-white">
+  <Section
+    sectionTitle={sectionTitle}
+    sectionContent={sectionContent}
+  />
+</article>

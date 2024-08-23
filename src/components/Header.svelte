@@ -19,7 +19,7 @@
 
 <section class="grid lg:row-span-4 xl:row-span-5 grid-cols-6 xl:grid-cols-12 place-items-start place-content-end text-center
   bg-background-1 bg-cover text-zinc-50 h-screen">
-  <div class={`fixed top-0 w-full grid grid-cols-subgrid col-span-full py-4 px-6 backdrop-blur-lg xl:py-6
+  <div class={`fixed top-0 w-full grid grid-cols-subgrid col-span-full py-4 px-6 backdrop-blur-lg xl:py-6 2xl:px-24 transition-colors duration-1000
     ${isScroll && 'bg-zinc-950/70 text-white shadow-lg'}`}>
     <div class="hidden md:flex justify-start items-center grid-cols-subgrid">
       <p class="w-max">Paulo Amarante</p>
@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <section class="hidden md:flex flex-col gap-2 text-left pl-6 pt-6 pb-16 w-screen bg-gradient-to-t from-zinc-900 to-transparent">
+  <section class="hidden md:flex flex-col gap-2 text-left pl-6 pt-6 pb-16 w-screen bg-gradient-to-t from-zinc-900 to-transparent 2xl:pl-24 2xl:pb-24 2xl:hover:pt-24 hover:bg-zinc-900 transition-all duration-1000">
     <div>
       <h1 class="font-bold text-xl md:text-8xl lg:text-9xl 2xl:text-9xl w-max">Paulo Amarante</h1>
       <p class="text-zinc-300 text-base md:text-xl">Web developer - science & technology</p>
